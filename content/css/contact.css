@@ -1,0 +1,53 @@
+.main-contact{
+    height: 1040px;
+    background-color: #f7f7f7;
+}
+.box-contact{
+    float: right;
+    width: 880px;
+    height: 800px;
+}
+.content-contact{
+    float: left;
+    width:  350px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.content-contact h4{
+    font-family: Saira;
+    font-weight: bolder;
+    font-size: 18pt;
+}
+.box-contact-main{
+    float: right;
+    width: 880px;
+    height: 770px;
+    background-color: #f7f7f7;
+}
+.box-contact-main img{
+    float: left;
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
+}
+.box-contact-main H6{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 11pt;
+    font-weight: bold;
+}
+.form-group{
+    font-family: Saira;
+    width: 96%;
+}
+.btndanger{
+    margin-left: 20px;
+    background-image: linear-gradient(to bottom, rgb(255, 152, 111),rgb(206, 125, 71));
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    color: #ffffff;
+    font-weight: bold;
+    border: 2px #cccccc solid;
+}

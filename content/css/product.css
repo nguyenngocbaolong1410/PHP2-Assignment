@@ -1,0 +1,411 @@
+/*----- ----- ----- Product ----- ----- -----*/
+
+.sp-main-product{
+    width: 1480px;
+    height: 1500px;
+    background-color: #ffffff;
+}
+.show-pro{
+    float: left;
+    width: 78%;
+    height: auto;
+    background-color: #ffffff;
+    margin-top: 50px;
+}
+.product{
+    float: left;
+    width: 32%;
+    height: 460px;
+    margin-left: 1.3%;
+    color:  #2A2A2A;
+}
+.img-product{
+    float: left;
+    width: 90%;
+    height: 300px;
+    margin-bottom: 20px;
+    margin-left: 5%;
+    position: relative;
+}
+.icon-product{
+    width: 48px;
+    height: 55px;
+    position: absolute;
+    opacity: 0;
+    transition: 0.3s;
+}
+.img-product:hover .icon-product{
+    opacity: 1;
+    transition: 0.3s;
+}
+.box-info-pro{
+    float: left;
+    width: 100%;
+    height: 30px;
+    color:  #2A2A2A;
+    margin-top: 20px;
+}
+.box-info-pro h5{
+    font-family: Oswald;
+    font-weight: bolder;
+    color:  #2A2A2A;
+    font-size: 14pt;
+}
+.box-info-pro p{
+    font-family: Saira;
+    font-size: 13pt;
+    font-weight: 100;
+    color:  #2A2A2A;
+}
+.product:hover{
+    border: 1px solid #b1b1b165;
+    padding: 10px;
+    box-shadow: 5px 10px 18px #888888;
+    transition: 0.3s;
+    color:  #2A2A2A;
+}
+.product{
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+/*----- ----- ----- ----- ----- ----- -----*/
+
+
+/*----- ----- ----- Catalog-mini left ----- ----- -----*/
+.Catalog-mini-left{
+    float: left;
+    width: 20%;
+    height: auto;
+    background-color: #ffffff;
+    margin-top: 50px;
+}
+.Catalog-mini-left h2{
+    font-family: Oswald;
+    font-size: 14pt;
+    color: #444;
+}
+.product-poop{
+    width: 30px;
+    height: 7px;
+    background-color: #ff7842;;
+    margin-left: 10px;
+    margin-top: -0px;
+}
+/*----- ----- ----- ----- ----- ----- -----*/
+
+
+/*----- ----- ----- 404 ----- ----- -----*/
+
+.box-full-404{
+    float: left;
+    width: 100%;
+    height: 715.938px;
+    background-color: #E16394;
+}
+.img-404{
+    float: left;
+    width: 35%;
+    height: 715.938px;
+    margin-left: 32.5%;
+}
+/*----- ----- ----- ----- ----- ----- -----*/
+
+/*----- ----- ----- Detail ProDuct ----- ----- -----*/
+
+.Img-Detail-Shop{
+    margin-left: 35px;
+    margin-top: 35px;
+    float: left;
+    width: 460px;
+    height: 600px;
+    border: 1px solid #b1b1b165;
+    padding: 10px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.Main-Name-Shop{
+    margin-left: 35px;
+    margin-top: 35px;
+    float: left;
+    width: 590px;
+    height: 52px;
+}
+.Main-Name-Shop > h1{
+    margin-top: 10px;
+    font-size: 22pt;
+    font-family: Saira;
+    font-weight: bolder;
+}
+
+.Price-Detail-PD{
+    margin-left: 35px;
+    margin-top: 35px;
+    float: left;
+    width: 240px;
+    height: auto;
+    font-size: 14pt;
+    margin-right: 300px;
+}
+.Price-Detail-PD > p{
+    margin-top: 10px;
+    font-size: 15pt;
+    font-family: Saira;
+    font-weight: bolder;
+}
+.scoll-RD{
+    margin-left: 35px;
+    margin-top: 35px;
+    float: left;
+}
+
+.scoll-RD > .btn{
+    height: 42px;
+    width: 102px;
+    color: #333333;
+    font-family: Saira;
+    font-weight: bolder;
+    margin-right: 360px;
+    border: 1px solid #f06d3a;
+}
+.scoll-RD > .btn:hover{
+    color: #f06d3a;
+    border: 1px solid #f06d3a;
+    background: none;
+}
+.buy-it-RD{
+    margin-left: 35px;
+    margin-top: 35px;
+    float: left;
+    width: 180px;
+    height: 80px;
+    font-size: 14pt;
+    border-radius: 4%;
+    background: #79b633;
+}
+.buy-it-RD > h1{
+    font-size: 20pt;
+    color: #ffffff;
+    font-family: Saira;
+    font-weight: bolder;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 25px;
+}
+.scoll-RD > *{
+    z-index: 1;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.info-RD-DT{
+    margin-left: 3%;
+    margin-top: 35px;
+    float: left;
+    width: 94%;
+    height: auto;
+    position: relative;
+}
+.text-RD-DT-MArgin{
+    margin-left: 40px;
+    border-bottom: none;
+    z-index: 5;
+}
+.text-RD-DT-MarginII{
+    width: 20%;
+    margin-left: 17%;
+    border-bottom: 1px solid rgb(145, 144, 144);
+    z-index: 10;
+}
+
+.text-RD-DT{
+    position: absolute;
+    width: 12%;
+    float: left;
+    height: 51px;
+    background-color: #ffffff;
+    border-top: 1px solid rgb(145, 144, 144);
+    border-left: 1px solid rgb(145, 144, 144);
+    border-right: 1px solid rgb(145, 144, 144);
+}
+.text-RD-DT >h4{
+    font-size: 18pt;
+    color: #333333;
+    font-family: Saira;
+    font-weight: bolder;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 12px;
+    margin-left: -5px;
+}
+.Z-dex{z-index: 2;}
+.Main-text-DT{
+    position: absolute;
+    margin-top: 50px;
+    height: 260px;
+    width: 100%;
+    background-color: #ffffff;
+    border: 1px solid rgb(145, 144, 144);
+}
+.box-text-DT > h5{
+    font-size: 26pt;
+    font-family: Saira;
+    font-weight: bolder;
+    margin-bottom: 40px;
+}
+.box-text-DT > p{
+    font-size: 14pt;
+    font-family: Saira;
+    font-weight: normal;
+}
+.box-text-DT{
+    margin-top: 30px;
+    width: 94%;
+    height: auto;
+}
+.NX-DT{
+    height: auto;
+    display: none;
+}
+.content-BL{
+    border: 2px solid rgb(175, 174, 174);
+    background-color: #ffffff;
+    height: auto;
+    width: 96%;
+    border-radius: 4px;
+}
+.content-BL > p{
+    font-family: Saira;
+    padding: 5px;
+    font-size: 13pt;
+}
+.content-BL > h6{
+    font-family: Saira;
+    font-weight: bold;
+    padding: 5px;
+    font-size: 14pt;
+}
+.box-Comm-DT{
+    margin-top: 30px;
+    width: 98%;
+    height: 220px;
+}
+/*----- ----- ----- ----- ----- ----- ----- ----- -----*/
+
+/*----- ----- ----- ----- Giỏ hàng ----- ----- ----- -----*/
+
+.main-GioHang{
+    background-color: #ffffff;
+}
+.main-GioHang > p{
+    margin-left: 50px;
+    margin-top: 60px;
+    float: left;
+    color: #2A2A2A;
+    font-size: 35pt;
+    font-family: Saira;
+    font-weight: bolder;
+}
+.box-table-giohang{
+    float: left;
+    width: 95%;
+    height: auto;
+    margin-left: 2.5%;
+}
+.TR-Box01{
+    background-color: #888888;
+    height: 40px;
+    font-size: 16pt;
+    font-family: Saira;
+    font-weight: bolder;
+    border: 1px solid #2A2A2A;
+}
+.TR-Box01 th{
+    border: 1px solid #2A2A2A;
+}
+.TR-Box01 th > p{
+    text-align: center;
+    margin-top: 5px;
+}
+.tbl-cart{
+    width: 90%;
+    border: 1px solid #979696;
+
+}
+.tbl-cart tr td{
+    border: 1px solid rgb(175, 171, 171);
+}
+.tbl-cart tr td > p{
+    text-align: center;
+    font-family: Saira;
+}
+.btnRemoveAction img{
+    height: 30px;
+    width: 28px;
+}
+tbody tr td img{
+    width: 40px;
+    height: 50px;
+}
+.AllRDShop{
+    float: right;
+    width: 31.45%;
+    margin-right: 5%;
+    margin-left: 1000px;
+}
+.AllRDShop > h2{
+    text-align: center;
+    font-family: Saira;
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+.shop_table{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    font-family: Saira;
+    font-size: 14pt;
+    border-bottom: 1px solid rgb(175, 171, 171);
+}
+.shop_table tr th > p{
+    padding: 10px;
+}
+.proceed-to-checkout{
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    border: 1px solid rgb(175, 171, 171);
+    border-bottom: none;
+}
+.box-checken{
+    float: right;
+    background-color: #afc466;
+    width: 31.45%;
+    height: 50px;
+    margin-right: 5%;
+    margin-top: 10px;
+}
+.box-checken:hover > a{
+    text-decoration: none;
+    color: #e6e6e6;
+    transition: 0.2s;
+}
+
+.checkout-button{
+    font-family: Saira;
+    text-decoration: none;
+    font-size: 16pt;
+    text-align: center;
+    color: #ffffff;
+}
+.checkout-button > p{
+    font-weight: bolder;
+    margin-top: 10px;
+}
+/*----- ----- ----- ----- ----- --- ----- ----- ----- -----*/
